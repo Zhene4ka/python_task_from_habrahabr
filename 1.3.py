@@ -9,10 +9,7 @@ m = int(input("Введите M:"))
 a = int(input("Введите a:"))
 b = int(input("Введите b:"))
 
-if a < b:
-    for i in range(a, b + 1):
-        print('{} x {} = {}'.format(m, i, m * i))
-else:
-    for i in range(b, a + 1):
-        print('{} x {} = {}'.format(m, i, m * i))
-
+if a > b:
+    a, b = b, a
+for i in range(a, b + 1):
+    print('{} x {} = {}'.format(m, i, m * i))

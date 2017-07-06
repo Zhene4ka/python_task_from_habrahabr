@@ -11,7 +11,6 @@ if a != 0:
     if d < 0:
         print("Нет решений")
     else:
-
             x1 = (-b + sqrt(d)) / (2 * a)
             x2 = (-b - sqrt(d)) / (2 * a)
             print(x1, x2)
