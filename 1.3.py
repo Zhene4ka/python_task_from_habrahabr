@@ -11,7 +11,8 @@ b = int(input("Введите b:"))
 
 if a < b:
     for i in range(a, b + 1):
-        print('{} x {} = {}\n'.format(m, i, m * i))
+        print('{} x {} = {}'.format(m, i, m * i))
 else:
     for i in range(b, a + 1):
-        print('{} x {} = {}\n'.format(m, i, m * i))
+        print('{} x {} = {}'.format(m, i, m * i))
+
